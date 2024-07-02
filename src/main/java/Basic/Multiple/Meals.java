@@ -1,4 +1,4 @@
-package basic.Multiple;
+package Basic.Multiple;
 
 public class Meals {
     public void meals()

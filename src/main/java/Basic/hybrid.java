@@ -13,12 +13,11 @@ class veg extends food
         System.out.println("pure veg restaurant");
     }
 }
-class curdrice extends veg
-{
-    public void ordered()
-    {
+class curdrice extends veg {
+    public void ordered() {
         System.out.println("yur order is taken");
     }
+}
     class nonveg extends food {
         public void nonvegmenu ()
 
@@ -27,13 +26,15 @@ class curdrice extends veg
         }
     }
 
-}
+
 public class hybrid {
     public static void main(String[] args) {
         curdrice restaurant = new curdrice();
         restaurant.menu();
         restaurant.vegmenu();
         restaurant.ordered();
+       nonveg nn =new nonveg();
+       nn.nonvegmenu();
         
     }
 }

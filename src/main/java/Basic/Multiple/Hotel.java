@@ -1,4 +1,4 @@
-package basic.Multiple;
+package Basic.Multiple;
 
 public class Hotel extends Meals implements MrngTiffen,Lunch,NightDinner {
     public static void main(String[] args) {
